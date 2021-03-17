@@ -1,0 +1,419 @@
+://www.toptal.com/developers/gitignore/api/linux,vim,visualstudio,windows 제작
+# https://www.toptal.com/developers/gitignore?templates=linux,vim,visualstudio,windows에서 편집
+
+### 리눅스 ###
+* ~
+
+프로세스에 여전히 삭제 된 파일에 대한 핸들이 열려있는 경우 작성할 수있는 임시 파일
+.fuse_hidden *
+
+# KDE 디렉토리 환경 설정
+.예배 규칙서
+
+# 파티션이나 디스크에 나타날 수있는 Linux 휴지통 폴더
+.폐물-*
+
+# .nfs 파일은 열린 파일이 제거되었지만 여전히 액세스 중일 때 생성됩니다.
+.nfs *
+
+### Vim ###
+스왑
+[._] *. s [av] [az]
+! *. svg # 벡터 파일이 필요없는 경우 주석 처리
+[._]*.교환]
+[._] s [a-rt-v] [az]
+[._] ss [a-gi-z]
+[._]교환]
+
+# 세션
+Session.vim
+Sessionx.vim
+
+# 임시
+.netrwhist
+# 자동 생성 태그 파일
+태그
+# 영구 실행 취소
+[._] *. un ~
+
+### Windows ###
+# Windows 썸네일 캐시 파일
+Thumbs.db
+Thumbs.db : 암호화 가능
+ehthumbs.db
+ehthumbs_vista.db
+
+# 덤프 파일
+* .stackdump
+
+# 폴더 설정 파일
+[Dd] esktop.ini
+
+# 파일 공유에 사용되는 휴지통
+$ RECYCLE.BIN /
+
+# Windows Installer 파일
+*.택시
+* .msi
+* .msix
+* .msm
+* .msp
+
+# Windows 단축키
+* .lnk
+
+### 비주얼 스튜디오 ###
+## Visual Studio 임시 파일을 무시하고 결과를 빌드하며
+널리 사용되는 Visual Studio 애드온으로 생성 된 파일 ##
+##
+## https://github.com/github/gitignore/blob/master/VisualStudio.gitignore에서 최신 정보 받기
+
+# 사용자 별 파일
+* .rsuser
+* .suo
+*.사용자
+* .userosscache
+* .sln.docstates
+
+# 사용자 별 파일 (MonoDevelop / Xamarin Studio)
+* .userprefs
+
+# 모노 자동 생성 파일
+mono_crash. *
+
+# 빌드 결과
+[Dd] 버그 /
+[Dd] ebugPublic /
+[Rr]리스 /
+[Rr]리스 /
+x64 /
+x86 /
+[Aa] [Rr] [Mm] /
+[Aa] [Rr] [Mm] 64 /
+bld /
+[Bb] /
+[오] bj /
+[Ll] og /
+[Ll] ogs /
+
+# Visual Studio 2015/2017 캐시 / 옵션 디렉토리
+.vs /
+# wwwroot에 프로젝트의 정적 파일을 생성하는 작업이있는 경우 주석 해제
+# wwwroot /
+
+# Visual Studio 2017 자동 생성 파일
+생성 된 \ 파일 /
+
+# MSTest 테스트 결과
+[Tt] est [Rr] esult * /
+[Bb] 요소 [Ll] og. *
+
+# N 단위
+* .VisualState.xml
+TestResult.xml
+nunit-*. xml
+
+# ATL 프로젝트 결과 구축
+[Dd] ebugPS /
+[Rr] leasePS /
+dlldata.c
+
+# 벤치 마크 결과
+BenchmarkDotNet. 아티팩트 /
+
+# .NET 코어
+project.lock.json
+project.fragment.lock.json
+유물 /
+
+# StyleCop
+StyleCopReport.xml
+
+# Visual Studio에서 빌드 한 파일
+* _i.c
+* _p.c
+* _h.h
+* .ilk
+*. 메타
+* .obj
+* .iobj
+* .pch
+* .pdb
+* .ipdb
+* .pgc
+* .pgd
+* .rsp
+* .sbr
+* .tlb
+* .tli
+* .tlh
+* .tmp
+* .tmp_proj
+* _wpftmp.csproj
+*.로그
+* .vspscc
+* .vssscc
+.builds
+* .pidb
+* .svclog
+* .scc
+
+# Chutzpah 테스트 파일
+_ 차 츠파 *
+
+# Visual C ++ 캐시 파일
+ipch /
+* .aps
+* .ncb
+* .opendb
+* .opensdf
+* .sdf
+* .cachefile
+* .VC.db
+* .VC.VC.opendb
+
+# Visual Studio 프로파일 러
+* .psess
+* .vsp
+* .vspx
+*.수액
+
+# Visual Studio 추적 파일
+* .e2e
+
+# TFS 2012 로컬 작업 공간
+$ tf /
+
+# 안내 자동화 툴킷
+* .gpState
+
+# ReSharper는 .NET 코딩 애드 인입니다
+_ReSharper * /
+*. [Rr] e [Ss] 하퍼
+* .DotSettings.user
+
+# TeamCity는 빌드 애드 인입니다
+_TeamCity *
+
+# DotCover는 코드 범위 도구입니다
+* .dotCover
+
+# AxoCover는 코드 범위 도구입니다
+.axoCover / *
+! .axoCover / settings.json
+
+# Coverlet은 무료 크로스 플랫폼 코드 커버리지 도구입니다
+적용 범위 * [. json, .xml, .info]
+
+# Visual Studio 코드 적용 결과
+*.적용 범위
+* .coveragexml
+
+#NCrunch
+_NCrunch_ *
+. * crunch * .local.xml
+nCrunchTemp_ *
+
+# 마이티 무스
+* .mm. *
+AutoTest.Net/
+
+# 웹 워크 벤치 (sass)
+.sass-cache /
+
+# Installshield 출력 폴더
+[Ee] xpress /
+
+# DocProject는 문서 생성기 애드 인입니다.
+DocProject / buildhelp /
+DocProject / 도움말 /*.HxT
+DocProject / 도움말 /*.HxC
+DocProject / Help / *. hhc
+DocProject / Help / *. hhk
+DocProject / Help / *. hhp
+DocProject / 도움말 / Html2
+DocProject / 도움말 / html
+
+# Click-Once 디렉토리
+출판 /
+
+# 웹 출력 게시
+*. [Pp] ublish.xml
+* .azurePubxml
+# 참고 : 웹 배포 설정을 확인하려면 다음 줄을 주석으로 처리하십시오.
+# 그러나 잠재적 인 암호를 가진 데이터베이스 연결 문자열은 암호화되지 않습니다.
+* .pubxml
+* .publishproj
+
+# Microsoft Azure Web App 게시 설정. 원하는 경우 다음 줄을 주석으로 처리하십시오.
+# Azure Web App 게시 설정을 체크인하지만 중요한 정보가 포함되어 있습니다.
+이 스크립트에서 #는 암호화되지 않습니다
+PublishScripts /
+
+# NuGet 패키지
+* .nupkg
+# NuGet 심볼 패키지
+* .snupkg
+# 패키지 복원으로 인해 패키지 폴더를 무시할 수 있습니다
+** / [Pp] ackages / *
+MSBuild 대상으로 사용되는 build /는 제외합니다.
+! ** / [Pp] ackages / build /
+# 필요한 경우 주석 처리를 제거하십시오. 그러나 일반적으로 필요할 때 재생성됩니다.
+#! ** / [Pp] ackages / repositories.config
+# NuGet v3의 project.json 파일은 더 무시하기 쉬운 파일을 생성합니다
+* .nuget.props
+* .nuget.targets
+
+# Microsoft Azure 빌드 출력
+csx /
+* .build.csdef
+
+# Microsoft Azure 에뮬레이터
+ecf /
+rcf /
+
+# Windows 스토어 앱 패키지 디렉토리 및 파일
+AppPackages /
+번들 유물 /
+Package.StoreAssociation.xml
+_pkginfo.txt
+* .appx
+* .appxbundle
+* .appxupload
+
+# Visual Studio 캐시 파일
+.cache로 끝나는 # 개의 파일은 무시할 수 있습니다
+*. [Cc] 아파
+# 그러나 .cache로 끝나는 디렉토리는 추적하십시오.
+!? *. [Cc] ache /
+
+# 기타
+ClientBin /
+~ $ *
+* .dbmdl
+* .dbproj.schemaview
+* .jfm
+* .pfx
+* .publishsettings
+orleans.codegen.cs
+
+# 강력한 이름 파일을 포함하면 보안 위험이 발생할 수 있습니다
+# (https://github.com/github/gitignore/pull/2483#issue-259490424)
+# *. snk
+
+# 여러 워크 플로우가 있으므로 bower_components를 무시하려면 다음 행의 주석 처리를 제거하십시오.
+# (https://github.com/github/gitignore/pull/1529#issuecomment-104372622)
+# bower_components /
+
+# RIA / Silverlight 프로젝트
+Generated_Code /
+
+# 기존 프로젝트 파일 변환에서 백업 및 보고서 파일
+최신 Visual Studio 버전으로 #. 백업 파일이 필요하지 않습니다.
+# 자식이 있기 때문에 ;-)
+_UpgradeReport_Files /
+지원*/
+UpgradeLog * .XML
+UpgradeLog * .htm
+서비스 패브릭 백업 /
+* .rptproj.bak
+
+# SQL Server 파일
+* .mdf
+* .ldf
+* .ndf
+
+# 비즈니스 인텔리전스 프로젝트
+* .rdl.data
+* .bim.layout
+* .bim _ *. settings
+* .rptproj.rsuser
+*-[Bb] ackup.rdl
+*-[Bb] ackup ([0-9]). rdl
+*-[Bb] ackup ([0-9] [0-9]). rdl
+
+# Microsoft 가짜
+가짜 조립품 /
+
+# GhostDoc 플러그인 설정 파일
+* .GhostDoc.xml
+
+# Visual Studio 용 Node.js 도구
+.ntvs_analysis.dat
+node_modules /
+
+# Visual Studio 6 빌드 로그
+* .plg
+
+# Visual Studio 6 작업 공간 옵션 파일
+*.고르다
+
+# Visual Studio 6 자동 생성 작업 영역 파일 (열린 파일 등 포함)
+* .vbw
+
+# Visual Studio LightSwitch 빌드 출력
+** / *. HTMLClient / GeneratedArtifacts
+** / *. DesktopClient / 생성 된 아티팩트
+** / *. DesktopClient / ModelManifest.xml
+** / *. 서버 / 생성 된 인공물
+** / *. Server / ModelManifest.xml
+_Pvt_Extensions
+
+# 패키지 종속성 관리자
+.paket / paket.exe
+포장 파일 /
+
+# FAKE-F # 만들기
+.모조품/
+
+# CodeRush 개인 설정
+.cr / 개인
+
+# Visual Studio 용 Python 도구 (PTVS)
+__pycache __ /
+* .pyc
+
+# 케이크-당신이 그것을 사용하는 경우 주석 해제
+# 도구 / **
+#! tools / packages.config
+
+# 탭 스튜디오
+* .tss
+
+# Telerik의 JustMock 구성 파일
+* .jmconfig
+
+# BizTalk 빌드 출력
+* .btp.cs
+* .btm.cs
+* .odx.cs
+* .xsd.cs
+
+# OpenCover UI 분석 결과
+오픈 커버 /
+
+# Azure Stream Analytics 로컬 실행 출력
+ASALocalRun /
+
+# MSBuild 바이너리 및 구조화 된 로그
+* .binlog
+
+# NVidia Nsight GPU 디버거 구성 파일
+* .nvuser
+
+# MFractors (Xamarin 생산성 도구) 작업 폴더
+.mfractor /
+
+# Visual Studio의 로컬 히스토리
+.localhistory /
+
+# BeatPulse 건강 점검 임시 데이터베이스
+healthchecksdb
+
+# Visual Studio 2017의 패키지 참조 변환 도구의 백업 폴더
+마이그레이션 백업 /
+
+# Ionide (크로스 플랫폼 F # VS 코드 도구) 작업 폴더
+이온
+
+# https://www.toptal.com/developers/gitignore/api/linux,vim,visualstudio,windows 끝
